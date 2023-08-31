@@ -9,114 +9,148 @@
 
 ## **Contexto**
 
-En los últimos años han habido grandes flujos migratorios entre los distintos países de América que se han dado por diversas razones como pueden ser la estabilidad, la educación y las oportunidades de empleo de un país.
+En los últimos años han habido grandes flujos migratorios entre los distintos países de América. Éstos se han dado por diversas razones, como pueden ser la estabilidad, la educación y las oportunidades de empleo de un país.
 
-### *ONG*
+### *Cliente*
 La `Organización del Desarrollo y Bienestar` es una ONG que busca contribuir en la en la mejora de los ingresos de familias más vulnerables para que logren tener una mejor calidad de vida en el continente Americano.
 
-Dicha ONG pretende conocer las razónes principales de la migración masiva de los países, y así poder realizar acciones que ataquen las problemáticas que las generan.
+## **Objetivo**
 
-## **Objetivos**
-
-- Analizar los flujos migratorios y poder conocer sus causas para conocer sus causas.
-- Crear un Dashboard con KPI's que ayuden a analizar e interpretar 
-- Generar un modelo predictivo para detectar de antemano cambios en flujos migratorios, detectando en que países y que problemáticas asi de esta forma se podrían tomar acciones preventivas.
+Analizar el flujo migratorio de las personas con el fin de proveer información a la ONG, para que conozca las razónes principales de la migración y así poder realizar acciones que ataquen algunas de las problemáticas que las generan, mejorando así la calidad de vida de las personas.
 
 ## **Alcance**
 
-Dado el enfoque de la ONG se van a trabajar con datos de paises de América. Además se piensa estudiar desde el año `1990?` porque a partir de esa fecha hay mayor cantidad de datos como para hacer un análisis mas detallado. Se va a trabajar con variables del estilo de calidad de vida, educación y establidad del país.
+Dado que la ONG actua principalmente en América se van a trabajar con datos de paises ese continente. Además se piensa estudiar desde el año `1990?` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis mas detallado. 
+
+La calidad de vida se podría cuantificar con algunos indicadores como: ``Esperanza de vida al nacer??``, el año promedio escolar, desempleo e índice de desarrollo humano.
 
 ### *Fuera de alcance*
 
-Como hay mucha emigración desde América Latina hacia Europa se podría agregar en el estudio los países europeos como destino para saber cuales son las causas de dicha migración.
+Como hay mucha emigración desde América Latina hacia Europa se podría agregar en el estudio los países europeos como destino para poder compararlos con los paises de América que podria brindar mas informacion sobre las causas de dicha migración.
 
 ## **Fuentes de datos**
 
-Como fuente de datos principal se extrajeron datos del Banco Mundial, pero se complemento de otras fuentes como UNDP (Programa de Desarrollo de las Naciones Unidas) y `...`.
+Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otras fuentes como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas) y [...?]().
 
-- [Banco Mundial](https://datos.bancomundial.org/indicador)
-- [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads)
+| Fuente | Tipo Datos | Ultima Actualización |
+| - |- | - |
+| Banco Mundial | [Migración neta](https://datos.bancomundial.org/indicator/SM.POP.NETM?end=2017&start=1962) | 2022 |
+| Banco Mundial | [Desempleo](https://datos.bancomundial.org/indicador/SL.UEM.TOTL.ZS?view=chart) | 2022 |
+| UNDP | [Desempleo](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 
-## **KPIs utilizados**
+Dichos datos originales estan en la carpeta [datasets_fuente](datasets_fuente).
 
-*"Del entendimiento de la problemática surgirán cuestiones que se buscarán resolver con el trabajo o las herramientas desarrolladas. Estas cuestiones, formuladas como objetivos, admitirán la creación de KPIs para evaluar su cumplimiento. Es una tarea muy abarcativa y a la vez muy específica en torno tanto a la problemática como al enfoque elegido."*
+## **ETL y EDA Preliminar**
 
-### **KPI 1**
-...
+Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un unico dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets_limpios](datasets_limpios).
 
-### **KPI 2**
-...
-
-### **KPI 3**
-...
-
-### **KPI 4**
-...
-
-## **EDA Preliminar**
 
 *"Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc."*
 
+### *Análisis*
+
+`Migracion Neta, Positivo es Inmigración, Negativa Emigración.`
+
+``Algun nombres y tipos de columnas a estudiar?``
+
+``Poner algo?``
+
+``Alguna grafica?``
+
+### *Conclusiones*
+
+``Poner algo``
+
+Para un análisis mas detallado del todo este proceso se puede consultar el [EDA](EDA.ipynb).
+
+## **KPIs utilizados**
+
+### **KPI 1: Desempleo**
+
+Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los paises mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en un año.
+
+### **KPI 2: Escolaridad**
+
+Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener mas oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año por año.
+
+
+### **KPI 3: **
+...
+
+
+### **KPI 4: **
+...
+
+
+### **KPI 5: Aumento de la esperanza de vida, ME PARECE QUE AL FINAL NO**
+...
+
+
+## **Solución Propuesta**
+
+Debajo se detalla la solución propuesta separando los distintos entregables en cada etapa del proyecto.
+
+### *Sprint 1*
+
+- Documentación de Contexto, Objetivo y Alcance del proyecto.
+- Definición del Stack Tecnológico completo.
+- Análisis Exploratorio de los Datos preliminar y definición de 4 KPI's a utilizar.
+
+### *Sprint 2*
+
+- Data Warehouse automatizado con Carga Inicial.
+- Dashboard preliminar (MVP)
+- Sistema preliminar de prediccion de razones de flujos migratorios (MVP)
+
+### *Sprint 3*
+
+- Dashboard interactivo con KPI's que ayuden a analizar e interpretar las razones de los flujos migratorios.
+- Una Web App para poder acceder al modelo predictivo para detectar de antemano cambios en flujos migratorios, detectando en que países y que problemáticas asi de esta forma se podrían tomar acciones preventivas.
+
 ## **Implementación de Stack Tecnológico**
 
-*"Una parte muy importante de la solución propuesta, es con qué herramientas (stack tecnológico) van a realizar la arquitectura del proyecto. Para esto, lo que van a tener que hacer es seleccionar una pequeña porción de los datos que disponen y realizar un proceso de limpieza y transformación utilizando las herramientas que planean implementar. Esto les dará una idea de cómo funcionarán en el proyecto completo y les permitirá tener un mejor abordaje para futuras tareas. Hay que tener en cuenta que, como este ítem va a ser una presentación previa de lo que van a trabajar en el segundo sprint, el PO puede dar el OK o determinar cuál es el mejor camino para que tomen. Esto les va a permitir adelantar trabajo de la segunda semana, ya que no se va a tener que esperar hasta la segunda demo para verificar si la arquitectura cumple con los requisitos del PO."*
+Para poder implementar la solución propuesta se propone utilizar el Stack Tecnológico detallado debajo.
 
-El Stack Tecnológico propuesto es el siguiente:
+- Data Sources
+    - Archivos `.csv` de distintas organizaciónes como fuentes de datos relevantes.
+- EDA en Python y Jupyter Notebook.
+    - [Numpy](https://numpy.org/) y [Pandas](https://pandas.pydata.org/) para manejo de datos.
+    - [Matplotlib](https://matplotlib.org/) y [Seaborn](https://seaborn.pydata.org/) para visualizaciones.
+- Raw Data
+    -  [GCP Cloud Storage](https://cloud.google.com/storage) para almacenar los datos crudos en la nuve de GCP.
+- Data Warehouse
+    - [GCP BigQuery](https://cloud.google.com/bigquery) para transformar los datos crudos en un Data Warehouse.
+- Data Visualization and Dashboard
+    - [Power BI](https://powerbi.microsoft.com/es-es/) para generación de Dashboards y visualizaciones tomando datos directamente de nuestro Data Warehouse.
+- Virtual Machine
+    - [GCP Compute Engine](https://cloud.google.com/compute) para poder alojar nuestro modelo de Machine Learning y dejar una API para producir las predicciones del modelo.
+        - Machine Learing Model
+            - [scikit-learn](https://scikit-learn.org/stable/)
+        - API
+            - [Fast API](https://fastapi.tiangolo.com/)
+- Web App
+    - [Streamlit](https://streamlit.io/) para crear nuestra aplicación Web y que el cliente pueda interactuar de una forma amigable con nuestro sistema de predicción.
 
 <p align='center'>
 <img src ="Stack_tecnologico.png" width="800">
 <p>
 
-- Data Sources
-    - Archivos `.csv` de distintas organizaciónes.
-- EDA (Python)
-    - [Numpy](https://numpy.org/) y [Pandas](https://pandas.pydata.org/) para manejo de datos.
-    - [Matplotlib](https://matplotlib.org/) y [Seaborn](https://seaborn.pydata.org/) para visualizaciones.
-- Raw Data
-    -  [GCP Cloud Storage](https://cloud.google.com/storage)
-- Data Warehouse
-    - [GCP BigQuery](https://cloud.google.com/bigquery)
-- Data Visualization and Dashboard
-    - [Power BI](https://powerbi.microsoft.com/es-es/)
-- Virtual Machine 
-    - [GCP Compute Engine](https://cloud.google.com/compute)
-        - Machine Learing Model
-            - [scikit-learn](https://scikit-learn.org/stable/)
-        - API
-            - [Fast API](https://fastapi.tiangolo.com/)
 
+## **Metodologías de trabajo y organización**
+Utilizamos un acercamiento a metodologías ágiles, definiendo las tareas que precisabamos realizar en la semana para llegar al entregable pedido. Luego en las Daily meeting aprovechabamos para hacer una puesta a punto de lo realizado, hablar sobre que problemas nos habiamos enfrentado y con que tareas ibamos a continuar.
 
-## **Solución Propuesta**
-
-*"Deben detallar qué tareas harán para cumplir los objetivos de trabajo propuestos previamente y cómo lo harán (metodologías de trabajo, forma de organización, distribución de tareas, roles de cada uno dentro del equipo, etc). También, deben detallar qué productos surgirán de su trabajo y en qué etapa los presentarán, teniendo en cuenta los requerimientos generales (entregables esperados) para cada etapa del proyecto."*   
-
-
-### **Metodologías de trabajo**
-...
-
-### **Forma de organización**
-...
 
 ### **Distribución de tareas y roles**
-...
+Marcelo Suarez - Data Analyst
+Nehuen Gonzalez - Data Analyst
+Thiago Gonzales - Data Engineer
+Sebastián Besio - Data Engineer
 
-### **Cronograma de Gantt**
-*"A su vez, deben realizar una estimación de tiempo para cada tarea, contemplando los tiempos de ejecución globales y los hitos previstos para cada semana; y plasmar esa estimación en un diagrama de Gantt."*
 
+### **Diagrama de Gantt**
 
-`PONER IMAGEN DE GANTT`
+Estimación de tareas para llegar en tiempo y forma a la finalización del proyecto el 15/09/23 contemplando los dos hitos intermedios.
 
 <p align='center'>
-<img src ="1.png" width="800">
+<img src ="Gantt.png" width="1000">
 <p>
-
-
-
-## Entregables Sprint 1
-
-- Repositorio Github
-- Documentación
-- 4 KPIs
-- EDA Preliminar, Calidad del dato
-- Implementación Stak Propuesto
-- Diagrama Gantt
