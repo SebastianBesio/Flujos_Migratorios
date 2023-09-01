@@ -64,7 +64,7 @@ Las variables a analizar en nuestro dataset son las siguientes:
 | Año_prom_esc | Número de años promedio de educación de una persona. |
 
 
-Para evitar confuciones, recordemos que cuando la Migración Neta es
+Para evitar confusiones, recordemos que cuando la Migración Neta es
 - **positiva**, significa que hay mas inmigración que emigración.
 - **negativa**, significa que hay mas emigración que inmigración.
 
@@ -129,7 +129,7 @@ Debajo se detalla la solución propuesta separando los distintos entregables en 
 
 - Data Warehouse automatizado con Carga Inicial.
 - Dashboard preliminar (MVP)
-- Sistema preliminar de predicción de razones de flujos migratorios (MVP)
+- Sistema preliminar de predicción de flujos migratorios (MVP)
 
 ### *Sprint 3*
 
