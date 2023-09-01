@@ -20,9 +20,9 @@ Analizar el flujo migratorio de las personas con el fin de proveer información 
 
 ## **Alcance**
 
-Dado que la ONG actúa principalmente en América se van a trabajar con datos de países ese continente. Además se piensa estudiar desde el año `1990` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis más detallado. 
+Dado que la ONG actúa principalmente en América se van a trabajar con datos de países ese continente. Además se piensa estudiar desde el año 1990 porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis más detallado. 
 
-La calidad de vida se podría cuantificar con algunos indicadores como: ``Esperanza de vida al nacer??``, el año promedio escolar, desempleo e índice de desarrollo humano.
+La calidad de vida se podría cuantificar con algunos indicadores como: años promedio de escolarización, desempleo, índice de desarrollo humano, pobreza, esperanza de vida al nacer.
 
 ### *Fuera de alcance*
 
@@ -30,7 +30,7 @@ Como hay mucha emigración desde América Latina hacia Europa se podría agregar
 
 ## **Fuentes de datos**
 
-Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otra fuente como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas).
+Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otras fuentes como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas) y [Our World in Data](https://ourworldindata.org).
 
 | Fuente | Tipo Datos | Última Actualización |
 | - |- | - |
@@ -43,14 +43,12 @@ Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://d
 | UNDP | [PBI_per_cap_aj](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | Our World in data | [Pobreza](https://ourworldindata.org/poverty) | 2021 |
 
-Dichos datos originales están en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
+Dichos datos originales están en la carpeta [datos_crudos](datasets/datos_crudos).
 
 ## **ETL y EDA Preliminar**
 
-Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un único dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets/datos_procesados](datasets/datos_procesados).
+Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un único dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datos_procesados](datasets/datos_procesados).
 
-
-*"Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc."*
 
 ### *Análisis*
 
@@ -61,6 +59,17 @@ Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estu
 ``Poner algo?``
 
 ``Alguna grafica?``
+
+
+<p align='center'>
+<img src ="Migracion_vs_Desempleo.png" width="800">
+<p>
+
+
+<p align='center'>
+<img src ="Matriz_Correlacion_Ejemplo.png" width="500">
+<p>
+
 
 ### *Conclusiones*
 
