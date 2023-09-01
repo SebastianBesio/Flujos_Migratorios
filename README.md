@@ -83,7 +83,7 @@ Otra forma con la que se quiere mejorar la calidad de vida es mejorando los nive
 ...
 
 
-### **KPI 4: Pobreza **
+### KPI 4: Pobreza
 Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerables. Este KPI mide la proporción de población que vive bajo el umbral de pobreza. Nuestra meta es disminuir esta proporción en un 5% en un año a través de estrategias efectivas. Aspiramos a crear un entorno más equitativo y con mayores oportunidades para todos.
 
 
