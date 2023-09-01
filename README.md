@@ -16,23 +16,23 @@ La `Organización del Desarrollo y Bienestar` es una ONG que busca contribuir en
 
 ## **Objetivo**
 
-Analizar el flujo migratorio de las personas con el fin de proveer información a la ONG, para que conozca las razónes principales de la migración y así poder realizar acciones que ataquen algunas de las problemáticas que las generan, mejorando así la calidad de vida de las personas.
+Analizar el flujo migratorio de las personas con el fin de proveer información a la ONG, para que conozca las razones principales de la migración y así poder realizar acciones que ataquen algunas de las problemáticas que las generan, mejorando así la calidad de vida de las personas.
 
 ## **Alcance**
 
-Dado que la ONG actua principalmente en América se van a trabajar con datos de paises ese continente. Además se piensa estudiar desde el año `1990` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis mas detallado. 
+Dado que la ONG actúa principalmente en América se van a trabajar con datos de países ese continente. Además se piensa estudiar desde el año `1990` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis más detallado. 
 
 La calidad de vida se podría cuantificar con algunos indicadores como: ``Esperanza de vida al nacer??``, el año promedio escolar, desempleo e índice de desarrollo humano.
 
 ### *Fuera de alcance*
 
-Como hay mucha emigración desde América Latina hacia Europa se podría agregar en el estudio los países europeos como destino para poder compararlos con los paises de América que podria brindar mas informacion sobre las causas de dicha migración.
+Como hay mucha emigración desde América Latina hacia Europa se podría agregar en el estudio los países europeos como destino para poder compararlos con los países de América que podría brindar mas información sobre las causas de dicha migración.
 
 ## **Fuentes de datos**
 
 Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otra fuente como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas).
 
-| Fuente | Tipo Datos | Ultima Actualización |
+| Fuente | Tipo Datos | Última Actualización |
 | - |- | - |
 | Banco Mundial | [Migración neta](https://datos.bancomundial.org/indicator/SM.POP.NETM?end=2017&start=1962) | 2022 |
 | Banco Mundial | [Desempleo](https://datos.bancomundial.org/indicador/SL.UEM.TOTL.ZS?view=chart) | 2022 |
@@ -43,11 +43,11 @@ Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://d
 | UNDP | [PBI_per_cap_aj](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | Our World in data | [pobreza](https://ourworldindata.org/poverty) | 2021 |
 
-Dichos datos originales estan en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
+Dichos datos originales están en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
 
 ## **ETL y EDA Preliminar**
 
-Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un unico dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets/datos_procesados](datasets/datos_procesados).
+Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un único dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets/datos_procesados](datasets/datos_procesados).
 
 
 *"Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc."*
@@ -66,17 +66,17 @@ Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estu
 
 ``Poner algo``
 
-Para un análisis mas detallado del todo este proceso se puede consultar el [EDA](EDA.ipynb).
+Para un análisis más detallado de todo este proceso se puede consultar el [EDA](EDA.ipynb).
 
 ## **KPIs utilizados**
 
 ### **KPI 1: Desempleo**
 
-Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los paises mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en un año.
+Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los países mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en un año.
 
 ### **KPI 2: Escolaridad**
 
-Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener mas oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año por año.
+Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año por año.
 
 
 ### KPI 3: Pobreza
@@ -103,31 +103,31 @@ Debajo se detalla la solución propuesta separando los distintos entregables en 
 
 - Data Warehouse automatizado con Carga Inicial.
 - Dashboard preliminar (MVP)
-- Sistema preliminar de prediccion de razones de flujos migratorios (MVP)
+- Sistema preliminar de predicción de razones de flujos migratorios (MVP)
 
 ### *Sprint 3*
 
 - Dashboard interactivo con KPI's que ayuden a analizar e interpretar las razones de los flujos migratorios.
-- Una Web App para poder acceder al modelo predictivo para detectar de antemano cambios en flujos migratorios, detectando en que países y que problemáticas asi de esta forma se podrían tomar acciones preventivas.
+- Una Web App para poder acceder al modelo predictivo para detectar de antemano cambios en flujos migratorios, detectando en qué países y que problemáticas así de esta forma se podrían tomar acciones preventivas.
 
 ## **Implementación de Stack Tecnológico**
 
 Para poder implementar la solución propuesta se propone utilizar el Stack Tecnológico detallado debajo.
 
 - Data Sources
-    - Archivos `.csv` de distintas organizaciónes como fuentes de datos relevantes.
+    - Archivos `.csv` de distintas organizaciones como fuentes de datos relevantes.
 - EDA en Python y Jupyter Notebook.
     - [Numpy](https://numpy.org/) y [Pandas](https://pandas.pydata.org/) para manejo de datos.
     - [Matplotlib](https://matplotlib.org/) y [Seaborn](https://seaborn.pydata.org/) para visualizaciones.
 - Raw Data
-    -  [GCP Cloud Storage](https://cloud.google.com/storage) para almacenar los datos crudos en la nuve de GCP.
+    -  [GCP Cloud Storage](https://cloud.google.com/storage) para almacenar los datos crudos en la nube de GCP.
 - Data Warehouse
     - [GCP BigQuery](https://cloud.google.com/bigquery) para transformar los datos crudos en un Data Warehouse.
 - Data Visualization and Dashboard
     - [Power BI](https://powerbi.microsoft.com/es-es/) para generación de Dashboards y visualizaciones tomando datos directamente de nuestro Data Warehouse.
 - Virtual Machine
     - [GCP Compute Engine](https://cloud.google.com/compute) para poder alojar nuestro modelo de Machine Learning y dejar una API para producir las predicciones del modelo.
-        - Machine Learing Model
+        - Machine Learning Model
             - [scikit-learn](https://scikit-learn.org/stable/)
         - API
             - [Fast API](https://fastapi.tiangolo.com/)
@@ -140,7 +140,7 @@ Para poder implementar la solución propuesta se propone utilizar el Stack Tecno
 
 
 ## **Metodologías de trabajo y organización**
-Utilizamos un acercamiento a metodologías ágiles, definiendo las tareas que precisabamos realizar en la semana para llegar al entregable pedido. Luego en las Daily meeting aprovechabamos para hacer una puesta a punto de lo realizado, hablar sobre que problemas nos habiamos enfrentado y con que tareas ibamos a continuar.
+Utilizamos un acercamiento a metodologías ágiles, definiendo las tareas que precisamos realizar en la semana para llegar al entregable pedido. Luego en las Daily meeting aprovechamos para hacer una puesta a punto de lo realizado, hablar sobre que problemas nos habíamos enfrentado y con que tareas ibamos a continuar.
 
 
 ### **Distribución de tareas y roles**
