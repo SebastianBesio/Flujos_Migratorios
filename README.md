@@ -112,7 +112,7 @@ Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerab
 
 
 ### KPI 4: HDI
-A través de la esperanza de vida, educación e ingreso per cápita, el HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación y reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
+El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
 
 
 ## **Solución Propuesta**
