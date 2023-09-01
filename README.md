@@ -49,22 +49,33 @@ Dichos datos originales están en la carpeta [datos_crudos](datasets/datos_crudo
 
 Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un único dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datos_procesados](datasets/datos_procesados).
 
-
 ### *Análisis*
 
-`Migracion Neta, Positivo es Inmigración, Negativa Emigración.`
+Las variables a analizar en nuestro dataset son las siguientes:
 
-``Algun nombres y tipos de columnas a estudiar?``
+| Fuente | Tipo Datos |
+| - |- |
+| Año | Año a los que corresponden los datos. |
+| Migración neta | Diferencia entre la inmigración y la emigración. |
+| Desempleo | Persona que busca empleo y pero no lo tiene. |
+| PIB per cápita | Producto Interno Bruto por persona. |
+| hdi | Indice de Desarrollo Humano. |
+| Esperanza_vida | La esperanza de vida es la media de la cantidad de años que vive una determinada población. |
+| Año_prom_esc | Número de años promedio de educación de una persona. |
 
-``Poner algo?``
 
-``Alguna grafica?``
+Para evitar confuciones, recordemos que cuando la Migración Neta es
+- **positiva**, significa que hay mas inmigración que emigración.
+- **negativa**, significa que hay mas emigración que inmigración.
 
+
+Del análisis se desprende por ejemplo que en varios paises hay una tendencia inversa entre el desempleo y el flujo migratorio.
 
 <p align='center'>
 <img src ="Migracion_vs_Desempleo.png" width="800">
 <p>
 
+Haciendo un poco mas amplio el análisis se puede observar la matriz de correlación (por ejemplo en este caso para Argentina) que el desempleo tiene una correlación inversa al flujo migratorio como se explicó anteriormente. Pero también se puede ver que otros indicadores como son el HDI, promedio años de escolarización y Esperanza de vida tienen una correlación positiva con respecto a la migración.
 
 <p align='center'>
 <img src ="Matriz_Correlacion_Ejemplo.png" width="500">
@@ -73,7 +84,15 @@ Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estu
 
 ### *Conclusiones*
 
-``Poner algo``
+- En general el desempleo y la migración neta tienen una buena correlación. Esto sería razonable ya que cuando hay menos empleo es mas probable de que la gente salga a buscar nuevas oportunidades en otros países.
+
+- Hay algunas excepciones como el caso de los Estados Unidos es un país que recibe tanta inmigración que por más que haya más desempleo su migración neta no se ve afectada.
+
+- Tambien resulta interesante mencionar el caso de Venezuela, que a partir del año 2015, posiblemente consecuencia de la crisis economica a que apareció en la primera presidencia de Maduro, tuvo un gran crecimiento en la emigración de su país. Esto impactó en Varios países vecinos como el caso de Colombia que tuvieron un aumento enla inmigración a partir de ese periodo.
+
+- Se podrian utilizar indicadores como el HDI, Desempleo y promedio años de escolarización como explicaciónes de ciertos flujos migratorios.
+
+- Es importante remarcar que, siendo que tenemos datos de Migración Neta y no de inmigración y emigración, a veces resulta dificil detectar si fue que no hubo cambios en la migración o si en realidad hubo paro fue un cambio balanceado entre ambos valores que no se logra interpretar al analizar la migración neta.
 
 Para un análisis más detallado de todo este proceso se puede consultar el [EDA](EDA.ipynb).
 
@@ -94,8 +113,6 @@ Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerab
 
 ### KPI 4: HDI
 A través de la esperanza de vida, educación e ingreso per cápita, el HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación y reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
-
-
 
 
 ## **Solución Propuesta**
