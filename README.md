@@ -72,13 +72,13 @@ Para evitar confuciones, recordemos que cuando la Migración Neta es
 Del análisis se desprende por ejemplo que en varios paises hay una tendencia inversa entre el desempleo y el flujo migratorio.
 
 <p align='center'>
-<img src ="Migracion_vs_Desempleo.png" width="800">
+<img src ="images/Migracion_vs_Desempleo.png" width="800">
 <p>
 
 Haciendo un poco mas amplio el análisis se puede observar la matriz de correlación (por ejemplo en este caso para Argentina) que el desempleo tiene una correlación inversa al flujo migratorio como se explicó anteriormente. Pero también se puede ver que otros indicadores como son el HDI, promedio años de escolarización y Esperanza de vida tienen una correlación positiva con respecto a la migración.
 
 <p align='center'>
-<img src ="Matriz_Correlacion_Ejemplo.png" width="500">
+<img src ="images/Matriz_Correlacion_Ejemplo.png" width="500">
 <p>
 
 
@@ -161,7 +161,7 @@ Para poder implementar la solución propuesta se propone utilizar el Stack Tecno
     - [Streamlit](https://streamlit.io/) para crear nuestra aplicación Web y que el cliente pueda interactuar de una forma amigable con nuestro sistema de predicción.
 
 <p align='center'>
-<img src ="Stack_tecnologico.png" width="800">
+<img src ="images/Stack_tecnologico.png" width="800">
 <p>
 
 
@@ -183,5 +183,5 @@ Utilizamos un acercamiento a metodologías ágiles, definiendo las tareas que pr
 Estimación de tareas para llegar en tiempo y forma a la finalización del proyecto el 15/09/23 contemplando los dos hitos intermedios.
 
 <p align='center'>
-<img src ="Gantt.png" width="1000">
+<img src ="images/Gantt.png" width="1000">
 <p>
