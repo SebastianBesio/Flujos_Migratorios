@@ -20,7 +20,7 @@ Analizar el flujo migratorio de las personas con el fin de proveer información 
 
 ## **Alcance**
 
-Dado que la ONG actua principalmente en América se van a trabajar con datos de paises ese continente. Además se piensa estudiar desde el año `1990?` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis mas detallado. 
+Dado que la ONG actua principalmente en América se van a trabajar con datos de paises ese continente. Además se piensa estudiar desde el año `1990` porque es a partir de esas fechas que hay mayor cantidad de datos como para hacer un análisis mas detallado. 
 
 La calidad de vida se podría cuantificar con algunos indicadores como: ``Esperanza de vida al nacer??``, el año promedio escolar, desempleo e índice de desarrollo humano.
 
@@ -30,19 +30,23 @@ Como hay mucha emigración desde América Latina hacia Europa se podría agregar
 
 ## **Fuentes de datos**
 
-Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otras fuentes como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas) y [...?]().
+Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otras fuentes como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas).
 
 | Fuente | Tipo Datos | Ultima Actualización |
 | - |- | - |
 | Banco Mundial | [Migración neta](https://datos.bancomundial.org/indicator/SM.POP.NETM?end=2017&start=1962) | 2022 |
 | Banco Mundial | [Desempleo](https://datos.bancomundial.org/indicador/SL.UEM.TOTL.ZS?view=chart) | 2022 |
-| UNDP | [Desempleo](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| Banco Mundial | [PBi per capita](https://datos.bancomundial.org/indicador/NY.GDP.PCAP.CD?view=chart) | 2022 |
+| UNDP | [hdi](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| UNDP | [Esperanza_vida](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| UNDP | [Año_prom_esc](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| UNDP | [PBI_per_cap_aj](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 
-Dichos datos originales estan en la carpeta [datasets_fuente](datasets_fuente).
+Dichos datos originales estan en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
 
 ## **ETL y EDA Preliminar**
 
-Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un unico dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets_limpios](datasets_limpios).
+Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estudio de la calidad del dato. Adicionalmente se juntaron en un unico dataset con todas las variables relevantes para continuar el estudio y se exportaron a un archivo destino en [datasets/datos_procesados](datasets/datos_procesados).
 
 
 *"Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc."*
@@ -82,8 +86,6 @@ Otra forma con la que se quiere mejorar la calidad de vida es mejorando los nive
 ...
 
 
-### **KPI 5: Aumento de la esperanza de vida, ME PARECE QUE AL FINAL NO**
-...
 
 
 ## **Solución Propuesta**
@@ -141,10 +143,12 @@ Utilizamos un acercamiento a metodologías ágiles, definiendo las tareas que pr
 
 
 ### **Distribución de tareas y roles**
-Marcelo Suarez - Data Analyst
-Nehuen Gonzalez - Data Analyst
-Thiago Gonzales - Data Engineer
-Sebastián Besio - Data Engineer
+| Nombre            | Rol           |
+|-------------------|---------------|
+| Marcelo Suarez    | Data Analyst  |
+| Nehuen Gonzalez   | Data Analyst  |
+| Thiago Gonzales   | Data Engineer |
+| Sebastián Besio   | Data Engineer |
 
 
 ### **Diagrama de Gantt**
