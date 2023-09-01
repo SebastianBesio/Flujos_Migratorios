@@ -92,7 +92,7 @@ Haciendo un poco mas amplio el análisis se puede observar la matriz de correlac
 
 - Se podrian utilizar indicadores como el HDI, Desempleo y promedio años de escolarización como explicaciones de ciertos flujos migratorios.
 
-- Es importante remarcar que, siendo que tenemos datos de Migración Neta y no de inmigración y emigración, a veces resulta dificil detectar si fue que no hubo cambios en la migración o si en realidad hubo paro fue un cambio balanceado entre ambos valores que no se logra interpretar al analizar la migración neta.
+- Es importante remarcar que, siendo que tenemos datos de Migración Neta y no de inmigración y emigración, a veces resulta dificil detectar si fue que no hubo cambios en la migración o si en realidad hubo pero fue un cambio balanceado entre ambos valores que no se logra interpretar al analizar la migración neta.
 
 Para un análisis más detallado de todo este proceso se puede consultar el [EDA](EDA.ipynb).
 
