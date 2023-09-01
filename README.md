@@ -30,7 +30,7 @@ Como hay mucha emigración desde América Latina hacia Europa se podría agregar
 
 ## **Fuentes de datos**
 
-Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otras fuentes como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas).
+Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://datos.bancomundial.org/indicador), pero se complementó de otra fuente como [UNDP](https://hdr.undp.org/data-center/documentation-and-downloads) (Programa de Desarrollo de las Naciones Unidas).
 
 | Fuente | Tipo Datos | Ultima Actualización |
 | - |- | - |
@@ -41,6 +41,7 @@ Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://d
 | UNDP | [Esperanza_vida](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | UNDP | [Año_prom_esc](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | UNDP | [PBI_per_cap_aj](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| Our World in data | [pobreza](https://ourworldindata.org/poverty) | 2021 |
 
 Dichos datos originales estan en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
 
@@ -82,8 +83,8 @@ Otra forma con la que se quiere mejorar la calidad de vida es mejorando los nive
 ...
 
 
-### **KPI 4: **
-...
+### **KPI 4: Pobreza **
+Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerables. Este KPI mide la proporción de población que vive bajo el umbral de pobreza. Nuestra meta es disminuir esta proporción en un 5% en un año a través de estrategias efectivas. Aspiramos a crear un entorno más equitativo y con mayores oportunidades para todos.
 
 
 
