@@ -37,11 +37,11 @@ Como fuente de datos principal se extrajeron datos del [Banco Mundial](https://d
 | Banco Mundial | [Migración neta](https://datos.bancomundial.org/indicator/SM.POP.NETM?end=2017&start=1962) | 2022 |
 | Banco Mundial | [Desempleo](https://datos.bancomundial.org/indicador/SL.UEM.TOTL.ZS?view=chart) | 2022 |
 | Banco Mundial | [PBi per capita](https://datos.bancomundial.org/indicador/NY.GDP.PCAP.CD?view=chart) | 2022 |
-| UNDP | [hdi](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
+| UNDP | [HDI](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | UNDP | [Esperanza_vida](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | UNDP | [Año_prom_esc](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
 | UNDP | [PBI_per_cap_aj](https://hdr.undp.org/data-center/documentation-and-downloads) | 2021 |
-| Our World in data | [pobreza](https://ourworldindata.org/poverty) | 2021 |
+| Our World in data | [Pobreza](https://ourworldindata.org/poverty) | 2021 |
 
 Dichos datos originales están en la carpeta [datasets/datos_crudos](datasets/datos_crudos).
 
