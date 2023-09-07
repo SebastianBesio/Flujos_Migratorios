@@ -64,7 +64,7 @@ Las variables a analizar en nuestro dataset son las siguientes:
 | Año_prom_esc | Número de años promedio de educación de una persona. |
 
 
-Para evitar confuciones, recordemos que cuando la Migración Neta es
+Para evitar confusiones, recordemos que cuando la Migración Neta es
 - **positiva**, significa que hay mas inmigración que emigración.
 - **negativa**, significa que hay mas emigración que inmigración.
 
@@ -90,9 +90,9 @@ Haciendo un poco mas amplio el análisis se puede observar la matriz de correlac
 
 - Tambien resulta interesante mencionar el caso de Venezuela, que a partir del año 2015, posiblemente consecuencia de la crisis economica a que apareció en la primera presidencia de Maduro, tuvo un gran crecimiento en la emigración de su país. Esto impactó en Varios países vecinos como el caso de Colombia que tuvieron un aumento enla inmigración a partir de ese periodo.
 
-- Se podrian utilizar indicadores como el HDI, Desempleo y promedio años de escolarización como explicaciónes de ciertos flujos migratorios.
+- Se podrian utilizar indicadores como el HDI, Desempleo y promedio años de escolarización como explicaciones de ciertos flujos migratorios.
 
-- Es importante remarcar que, siendo que tenemos datos de Migración Neta y no de inmigración y emigración, a veces resulta dificil detectar si fue que no hubo cambios en la migración o si en realidad hubo paro fue un cambio balanceado entre ambos valores que no se logra interpretar al analizar la migración neta.
+- Es importante remarcar que, siendo que tenemos datos de Migración Neta y no de inmigración y emigración, a veces resulta dificil detectar si fue que no hubo cambios en la migración o si en realidad hubo pero fue un cambio balanceado entre ambos valores que no se logra interpretar al analizar la migración neta.
 
 Para un análisis más detallado de todo este proceso se puede consultar el [EDA](EDA.ipynb).
 
@@ -112,7 +112,7 @@ Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerab
 
 
 ### KPI 4: HDI
-A través de la esperanza de vida, educación e ingreso per cápita, el HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación y reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
+El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
 
 
 ## **Solución Propuesta**
@@ -129,7 +129,7 @@ Debajo se detalla la solución propuesta separando los distintos entregables en 
 
 - Data Warehouse automatizado con Carga Inicial.
 - Dashboard preliminar (MVP)
-- Sistema preliminar de predicción de razones de flujos migratorios (MVP)
+- Sistema preliminar de predicción de flujos migratorios (MVP)
 
 ### *Sprint 3*
 
