@@ -149,7 +149,7 @@ La disminución en la emigración de México a los Estados Unidos a partir de 20
 Poner algo `ARG??`
 
 <p align='center'>
-<img src ="images/Inm_ARG.png" width="800">
+<img src ="images/Inm_Arg.png" width="800">
 <p>
 
 ### **Caso Venezuela**
@@ -162,8 +162,12 @@ Continuado con el análisis del EDA, se puede observar la gran emigración de Ve
 
 Entre 2015 y 2020 aumentaron a mas de 4 millones los inmigrantes Venezolanos en los distintos paises de Ámerica, siendo los destinos mas notables Colombia que tuvo un aumento de mas de 1,7 millones de Venezolanos en ese periodo. Seguidos por Perú con un aumento de más de 900 mil y Chile con más de 450 mil Venezolanos.
 
-### **Reducción Esperanza Vida 2020**
+### **Repercuciones Pandemia 2020 - Covid -19**
 
+**Reducción Esperanza Vida 2020**
+Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa. Esto se podria atribuir a la Pandemia Covid-19.
+
+**Reducción Esperanza Vida 2020**
 Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa. Esto se podria atribuir a la Pandemia Covid-19.
 
 <p align='center'>
