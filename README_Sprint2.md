@@ -162,19 +162,36 @@ Continuado con el análisis del EDA, se puede observar la gran emigración de Ve
 
 Entre 2015 y 2020 aumentaron a mas de 4 millones los inmigrantes Venezolanos en los distintos paises de Ámerica, siendo los destinos mas notables Colombia que tuvo un aumento de mas de 1,7 millones de Venezolanos en ese periodo. Seguidos por Perú con un aumento de más de 900 mil y Chile con más de 450 mil Venezolanos.
 
-### **Repercuciones Pandemia 2020 - Covid -19**
+### **Repercuciones Pandemia 2020 - Covid 19**
+
+La pandemia Covid 19 afecto varios indicadores de forma sustancial.
+
 
 **Reducción Esperanza Vida 2020**
-Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa. Esto se podria atribuir a la Pandemia Covid-19.
 
-**Reducción Esperanza Vida 2020**
-Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa. Esto se podria atribuir a la Pandemia Covid-19.
+Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa que ya que se da en la mayoria de los países podria atribuirse a la pandemia.
+
+También se puede ver un outlier en la esperanza de vida de Uruguay que tuvo un aumento en el 2020 y recién tuvo una disminución en 2021, esto se atribuye porque en el 2020 no fue afectado en gran medida por la pandemia y si fue afectado en la ola de contagios del 2021.
 
 <p align='center'>
 <img src ="images/Esp_vida_2020.png" width="600">
 <p>
 
-En la gráfica se muestra como la mayoria de los países tuvo una disminución de la esperanza de vida en el 2020. También se puede ver un outlier en la esperanza de vida de Uruguay que tuvo un aumento en el 2020 y recién tuvo una disminución en 2021, esto se atribuye porque en el 2020 no fue afectado en gran medida por la pandemia y si fue afectado en la ola de contagios del 2021.
+**Desempleo**
+
+En 2020 la mayoría de los países tuvieron un aumento del desempleo principalmente consecuencia de las medidas que tomaron los diversos países que generó una desaceleración en la economia y nuevas inversiones. Además de haber generado insertidumbre sobre la estabilidd económica luego de la pandemia. 
+
+<p align='center'>
+<img src ="images/Desempleo_2020.png" width="600">
+<p>
+
+**Migración Neta**
+
+En 2020 la mayoría de los países tuvieron una disminucion en la migración neta que podria ser consecuencia de las medidas de repatriación y cierre de fronteras tomadas por los distinos gobiernos.
+
+<p align='center'>
+<img src ="images/Mig_neta_2020.png" width="600">
+<p>
 
 ## **DASHBOARD**
 
