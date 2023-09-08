@@ -198,7 +198,7 @@ La disminución en la emigración de México a los Estados Unidos a partir de 20
 
 ### **Inmigración Argentina**
 
-Poner algo `ARG??`
+La reducción de la inmigración en Argentina en la década de 1990 se produjo porque: esa década estuvo marcada por una serie de reformas económicas, como la Convertibilidad y la privatización de empresas, que inicialmente generaron estabilidad, pero luego dieron paso a crisis económicas y sociales, que culminaron en la crisis financiera y el colapso del gobierno a principios de los años 2000. Luego la inmigración aumentó hasta la actualidad y la razón principal fue por la creación en el año 2003 de la Ley Migraciones 25.871, que regulariza la situación documentaria de cientos de miles de migrantes, especialmente a personas que provienen de países del MERCOSUR.
 
 <p align='center'>
 <img src ="images/Inm_Arg.png" width="800">
