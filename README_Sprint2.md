@@ -47,9 +47,9 @@ Se utilizó el siguiente Stack Tecnológico para implementar el workflow deseado
 
 `Observación`: Por falta de tiempo se decidió posponer el modelo de predicción de machine learning para poder dedicar esfuerzos en poder brindar un producto de mayor calidad en el resto de las areas. Se estudiará durante el próximo sprint si podemos darle la dedicación que se merece o si queda para trabajo futuro (fuera de alcance).
 
-## **RAW ETL**
+## **ETL RAW**
 
-Se extrajeron los datos de distintas fuentes, quitaron columnas, datos duplicados y NaNs. Además se unificaron nombres de paises, quitaron caracteres como tildes y 'ñ'. Por ultimo se dejaron en CSV en el Bucket.
+Se extrajeron los datos de distintas fuentes, quitaron columnas, datos duplicados y NaNs. Además se unificaron nombres de paises en español, quitaron caracteres como tildes y 'ñ'. Por ultimo se dejaron en CSV en el Bucket. Todo implementado en Cloud Functions.
 
 ## **Diagrama de Entidad-Relacion y Diccionario de datos**
 
@@ -58,6 +58,11 @@ Tomando en cuenta los datos se diseñó un diagrama ER. Las tablas fueron creada
 <p align='center'>
 <img src ="images/Diagrama_ER.png" width="800">
 <p>
+
+* Como se puede ver la tabla de hechos se llama 'migración', tiene valores de Año y migracion Neta y foreign keys hacia el resto de las tablas.
+* Luego tenemos una tabla dimensional de 'pais' con un id_pais y nombre para cada pais.
+* Hay dos tablas más de factores económicos y sociales y una de inmigración que tiene la composición de los paises de origen de los inmigrantes de un pais dado.
+* En todas las tablas excepto la de 'pais' se crearon primary keys con una codificación entre el Año y el id_pais ya que eran valores que relacionaban a todos los datos y esa combinación hacia que fueran únicos.
 
 ### *'migracion'* (Tabla de Hechos)
 
@@ -125,19 +130,47 @@ Cuando corre la Cloud Function de ETL hacia BigQuery levanta los datos completos
 
 ## **Analisis de datos**
 
-``EEUU??``
 
-``ALGO MAS??``
+### **Inmigración EEUU**
+
+La disminución en la emigración de México a los Estados Unidos a partir de 2010 puede atribuirse a una combinación de factores económicos, demográficos y políticos, las razones claves fueron:
+
+* Cambios en la economía: Durante la década de 2000, México experimentó un crecimiento económico moderado y una mejora en las oportunidades laborales en ciertas industrias, como la manufactura y la tecnología. Esto redujo la necesidad de que las personas emigraran en busca de empleo en los Estados Unidos.
+* Crisis económicas en los Estados Unidos: La crisis financiera global de 2008 y la recesión que siguió afectaron negativamente el empleo y las oportunidades económicas en los Estados Unidos. Esto hizo que el país fuera menos atractivo para los migrantes mexicanos en busca de trabajo.
+* Mayor control fronterizo: El gobierno de los Estados Unidos implementó medidas más estrictas de control fronterizo y deportación en la década de 2010, lo que hizo más difícil para los mexicanos ingresar y permanecer en el país de manera irregular.
+* Mayor inversión en educación: México invirtió en programas educativos y capacitación laboral para mejorar las habilidades de su fuerza laboral, lo que aumentó las perspectivas de empleo en el país y redujo la necesidad de emigrar.
+
+<p align='center'>
+<img src ="images/Inm_EEUU.png" width="800">
+<p>
+
+### **Inmigración Argentina**
+
+Poner algo `ARG??`
+
+<p align='center'>
+<img src ="images/Inm_ARG.png" width="800">
+<p>
 
 ### **Caso Venezuela**
 
-Continuado con el análisis del EDA, se puede observar la gran emigración de Venezuela desde el 2015.
+Continuado con el análisis del EDA, se puede observar la gran emigración de Venezuela desde el 2015, posiblemente consecuencia de la crisis economica a que apareció en la primera presidencia de Maduro, tuvo un gran crecimiento en la emigración de su país. Esto impactó en Varios países vecinos como el caso de Colombia que tuvieron un aumento enla inmigración a partir de ese periodo.
 
 <p align='center'>
 <img src ="images/Caso_Venezuela_MVP.png" width="800">
 <p>
 
 Entre 2015 y 2020 aumentaron a mas de 4 millones los inmigrantes Venezolanos en los distintos paises de Ámerica, siendo los destinos mas notables Colombia que tuvo un aumento de mas de 1,7 millones de Venezolanos en ese periodo. Seguidos por Perú con un aumento de más de 900 mil y Chile con más de 450 mil Venezolanos.
+
+### **Reducción Esperanza Vida 2020**
+
+Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa. Esto se podria atribuir a la Pandemia Covid-19.
+
+<p align='center'>
+<img src ="images/Esp_vida_2020.png" width="600">
+<p>
+
+En la gráfica se muestra como la mayoria de los países tuvo una disminución de la esperanza de vida en el 2020. También se puede ver un outlier en la esperanza de vida de Uruguay que tuvo un aumento en el 2020 y recién tuvo una disminución en 2021, esto se atribuye porque en el 2020 no fue afectado en gran medida por la pandemia y si fue afectado en la ola de contagios del 2021.
 
 ## **DASHBOARD**
 
