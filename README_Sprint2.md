@@ -75,7 +75,7 @@ asdsa
 
 
 
-
+``DECIR ALGO DEL MODELO DE ML``
 
 
 
