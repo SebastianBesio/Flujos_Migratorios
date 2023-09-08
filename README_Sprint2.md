@@ -128,8 +128,61 @@ Se crearon tareas programadas para correr cada 1 semana que corre las Cloud Func
 
 Cuando corre la Cloud Function de ETL hacia BigQuery levanta los datos completos del CSV y los compara con los datos que ya tiene la tabla utilizando Primary Keys y solo agrega un dato cuando es nuevo
 
+## **DASHBOARD**
+
+<p align='center'>
+<img src ="images/Dashboard_MVP.png" width="800">
+<p>
+
+A la izquierda se encuentran 4 KPIs luego se puede ver varias gráficas para ver las tendencias de las distintas variables a lo largo de los años, pudindo filtrar por años y paises.
+
+### **KPI 1: Reducción del Desempleo**
+
+Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los países mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en dos años.
+
+### **KPI 2: Mejora Escolaridad**
+
+Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año en 5 años.
+
+### **KPI 3: Esperanza de vida**
+Adicionalmente se puede mirar mejorar la esperanza de vida de la población teniendo como objetivo el aumento de 2 % en 5 años.
+
+### **KPI 4: HDI**
+El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 2% en 5 años.
+
+
 ## **Analisis de datos**
 
+### **Repercuciones Pandemia 2020 - Covid 19**
+
+La pandemia Covid 19 afecto varios indicadores de forma sustancial.
+
+
+**Reducción Esperanza Vida**
+
+Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa que ya que se da en la mayoria de los países podria atribuirse a la pandemia.
+
+También se puede ver un outlier en la esperanza de vida de Uruguay que tuvo un aumento en el 2020 y recién tuvo una disminución en 2021, esto se atribuye porque en el 2020 no fue afectado en gran medida por la pandemia y si fue afectado en la ola de contagios del 2021.
+
+<p align='center'>
+<img src ="images/Esp_vida_2020.png" width="600">
+<p>
+
+**Aumento del Desempleo**
+
+En 2020 la mayoría de los países tuvieron un aumento del desempleo principalmente consecuencia de las medidas que tomaron los diversos países que generó una desaceleración en la economia y nuevas inversiones. Además de haber generado insertidumbre sobre la estabilidd económica luego de la pandemia. 
+
+<p align='center'>
+<img src ="images/Desempleo_2020.png" width="600">
+<p>
+
+**Disminución de la Migración Neta**
+
+En 2020 la mayoría de los países tuvieron una disminucion en la migración neta que podria ser consecuencia de las medidas de repatriación y cierre de fronteras tomadas por los distinos gobiernos.
+
+<p align='center'>
+<img src ="images/Mig_neta_2020.png" width="600">
+<p>
 
 ### **Inmigración EEUU**
 
@@ -162,56 +215,6 @@ Continuado con el análisis del EDA, se puede observar la gran emigración de Ve
 
 Entre 2015 y 2020 aumentaron a mas de 4 millones los inmigrantes Venezolanos en los distintos paises de Ámerica, siendo los destinos mas notables Colombia que tuvo un aumento de mas de 1,7 millones de Venezolanos en ese periodo. Seguidos por Perú con un aumento de más de 900 mil y Chile con más de 450 mil Venezolanos.
 
-### **Repercuciones Pandemia 2020 - Covid 19**
-
-La pandemia Covid 19 afecto varios indicadores de forma sustancial.
 
 
-**Reducción Esperanza Vida 2020**
-
-Se puede observar algo curioso con la Esperanza de Vida. En general es un factor creciente pero si observamos la diferencia entre el 2019 y el 2020 hay una baja significativa que ya que se da en la mayoria de los países podria atribuirse a la pandemia.
-
-También se puede ver un outlier en la esperanza de vida de Uruguay que tuvo un aumento en el 2020 y recién tuvo una disminución en 2021, esto se atribuye porque en el 2020 no fue afectado en gran medida por la pandemia y si fue afectado en la ola de contagios del 2021.
-
-<p align='center'>
-<img src ="images/Esp_vida_2020.png" width="600">
-<p>
-
-**Desempleo**
-
-En 2020 la mayoría de los países tuvieron un aumento del desempleo principalmente consecuencia de las medidas que tomaron los diversos países que generó una desaceleración en la economia y nuevas inversiones. Además de haber generado insertidumbre sobre la estabilidd económica luego de la pandemia. 
-
-<p align='center'>
-<img src ="images/Desempleo_2020.png" width="600">
-<p>
-
-**Migración Neta**
-
-En 2020 la mayoría de los países tuvieron una disminucion en la migración neta que podria ser consecuencia de las medidas de repatriación y cierre de fronteras tomadas por los distinos gobiernos.
-
-<p align='center'>
-<img src ="images/Mig_neta_2020.png" width="600">
-<p>
-
-## **DASHBOARD**
-
-<p align='center'>
-<img src ="images/Dashboard_MVP.png" width="800">
-<p>
-
-A la izquierda se encuentran 4 KPIs luego se puede ver varias gráficas para ver las tendencias de las distintas variables a lo largo de los años, pudindo filtrar por años y paises.
-
-### **KPI 1: Reducción del Desempleo**
-
-Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los países mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en dos años.
-
-### **KPI 2: Mejora Escolaridad**
-
-Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año en 5 años.
-
-### **KPI 3: Esperanza de vida**
-Adicionalmente se puede mirar mejorar la esperanza de vida de la población teniendo como objetivo el aumento de 2 % en 5 años.
-
-### **KPI 4: HDI**
-El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 2% en 5 años.
 
