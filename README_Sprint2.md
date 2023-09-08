@@ -123,20 +123,29 @@ Se crearon tareas programadas para correr cada 1 semana que corre las Cloud Func
 
 Cuando corre la Cloud Function de ETL hacia BigQuery levanta los datos completos del CSV y los compara con los datos que ya tiene la tabla utilizando Primary Keys y solo agrega un dato cuando es nuevo
 
-
 ## **Analisis de datos**
 
-``Venezuela 2015?``
+``EEUU??``
 
-``Pico Perú?``
+``ALGO MAS??``
 
-``Argentina en los 90?``
+### **Caso Venezuela**
+
+Continuado con el análisis del EDA, se puede observar la gran emigración de Venezuela desde el 2015.
+
+<p align='center'>
+<img src ="images/Caso_Venezuela_MVP.png" width="800">
+<p>
+
+Entre 2015 y 2020 aumentaron a mas de 4 millones los inmigrantes Venezolanos en los distintos paises de Ámerica, siendo los destinos mas notables Colombia que tuvo un aumento de mas de 1,7 millones de Venezolanos en ese periodo. Seguidos por Perú con un aumento de más de 900 mil y Chile con más de 450 mil Venezolanos.
 
 ## **DASHBOARD**
 
-``Imagen de Dashboard?``
+<p align='center'>
+<img src ="images/Dashboard_MVP.png" width="800">
+<p>
 
-``Breve descripcion gral?``
+A la izquierda se encuentran 4 KPIs luego se puede ver varias gráficas para ver las tendencias de las distintas variables a lo largo de los años, pudindo filtrar por años y paises.
 
 ### **KPI 1: Reducción del Desempleo**
 
@@ -144,11 +153,11 @@ Debido a que una de las propuestas que tiene la ONG es la de realizar campaña d
 
 ### **KPI 2: Mejora Escolaridad**
 
-Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año por año.
+Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año en 5 años.
 
-### **KPI 3: Pobreza**
-Buscamos reducir la pobreza y mejorar la calidad de vida en comunidades vulnerables. Este KPI mide la proporción de población que vive bajo el umbral de pobreza. Nuestra meta es disminuir esta proporción en un 5% en un año a través de estrategias efectivas. Aspiramos a crear un entorno más equitativo y con mayores oportunidades para todos.
+### **KPI 3: Esperanza de vida**
+Adicionalmente se puede mirar mejorar la esperanza de vida de la población teniendo como objetivo el aumento de 2 % en 5 años.
 
 ### **KPI 4: HDI**
-El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 3% en un año.
+El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 2% en 5 años.
 
