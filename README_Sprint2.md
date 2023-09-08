@@ -202,7 +202,7 @@ La disminución en la emigración de México a los Estados Unidos a partir de 20
 Poner algo `ARG??`
 
 <p align='center'>
-<img src ="images/Inm_Arg.png" width="800">
+<img src ="images/Inm_Argads.png" width="800">
 <p>
 
 ### **Caso Venezuela**
