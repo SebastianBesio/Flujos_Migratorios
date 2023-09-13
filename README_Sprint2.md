@@ -138,14 +138,14 @@ A la izquierda se encuentran 4 KPIs luego se puede ver varias gráficas para ver
 
 ### **KPI 1: Reducción del Desempleo**
 
-Debido a que una de las propuestas que tiene la ONG es la de realizar campaña de empleo en los países mas vulnerables se puede utilizar un KPI que mida el porcentaje de desempleo y tenga como objetivo bajar 2 % en dos años.
+Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año en 5 años.
 
 ### **KPI 2: Mejora Escolaridad**
 
 Otra forma con la que se quiere mejorar la calidad de vida es mejorando los niveles de escolaridad de la población para que a futuro logren tener más oportunidades de empleo. Teniendo esto en cuenta se puede medir la variación de los años de escolaridad y poner como objetivo el aumento de 1 año en 5 años.
 
 ### **KPI 3: Esperanza de vida**
-Adicionalmente se puede mirar mejorar la esperanza de vida de la población teniendo como objetivo el aumento de 2 % en 5 años.
+Adicionalmente se puede mejorar la esperanza de vida de la población teniendo como objetivo el aumento de 2 años en el indicador de la esperanza de vida en un lapso de 5 años.
 
 ### **KPI 4: HDI**
 El HDI refleja la salud, educación y bienestar de la población. Se relaciona con nuestro propósito de mejorar la calidad de vida en comunidades vulnerables. Al enlazar la atención médica, formación, reducción de desempleo y pobreza, este KPI busca aumentar el HDI en un 2% en 5 años.
