@@ -34,9 +34,9 @@ El proyecto va a estar dividido en tres Sprints de una semana cada uno. Debajo s
 ### **[Sprint 3](README_Sprint3.md)**
 
 ### *Integrantes*
-| Nombre            | LinkedIn      | GitHub      |
-|-------------------|---------------|-------------|
-| Marcelo Suarez    | [LinkedIn]() | [GitHub]() |
-| Nehuen Gonzalez   | [LinkedIn]() | [GitHub]() |
-| Thiago Gonzales   | [LinkedIn]() | [GitHub]() |
-| Sebastián Besio   | [LinkedIn](https://www.linkedin.com/in/sebasti%C3%A1n-besio-calatroni/) | [GitHub](https://github.com/SebastianBesio) |
+| Nombre            | LinkedIn      |
+|-------------------|---------------|
+| Marcelo Suarez    | [LinkedIn](www.linkedin.com/in/marcelo-gimenez-suarez-datascientist) |
+| Nehuen Gonzalez   | [LinkedIn](https://www.linkedin.com/in/nehuen-gonzalez/) |
+| Thiago Gonzales   | [LinkedIn]() |
+| Sebastián Besio   | [LinkedIn](https://www.linkedin.com/in/sebasti%C3%A1n-besio-calatroni/) |
