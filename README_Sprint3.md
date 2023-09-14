@@ -91,6 +91,16 @@ Es una herramienta de codigo abierto diseñada por Meta en 2017 para predecir va
 
 `COMO FUNCIONA?`
 
+Prophet divide los datos en tres partes principales:
+
+Tendencia: Es una línea recta que muestra la dirección general en la que van los datos con el tiempo, si están aumentando o disminuyendo.
+
+Estacionalidad: Son los patrones repetitivos que ocurren cada cierto tiempo, como las ventas que aumentan durante las festividades.
+
+Efectos vacacionales: Son eventos especiales que pueden afectar los datos, como un aumento en las ventas durante un período de descuento. (No se incluyo)
+
+Luego, Prophet utiliza fórmulas matemáticas (Harvey Peters 1990) para predecir cómo se verán los datos en el futuro. Ayuda a las empresas a tomar decisiones basadas en estas predicciones.
+
 **Predicción de Migración Neta**
 
 El modelo de predicción se agregó a una Cloud Function, en donde toma la migración neta y pronostica su valor para los proximos 5 años futuros. No se hace para mas años ya que mientras mas lejana la predicción mas imprecisa es.
