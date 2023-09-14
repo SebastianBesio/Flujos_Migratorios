@@ -32,7 +32,13 @@ Debajo les detallaremos las caracteristicas principales del producto y algunos e
 
 ## **Emigración**
 
-`IMAGEN`
+En este reporte se pueden elegir el pais de origen de la emigración y los paises destino para estudiar los destinos de flujo migratorio. Se observa una grafica que muestra el aumento de los emigrantes de ese pais hacia los destinos elegidos.
+
+Ademas debajo a la izqueirda se puede ver la cantidad total de emigrantes que tiene el país de origen como para poder ver la diferencia en la imigración.
+
+<p align='center'>
+<img src ="images/Emigracion_S3.png" width="800">
+<p>
 
 **Análisis ejemplo**
 
@@ -42,14 +48,26 @@ Debajo les detallaremos las caracteristicas principales del producto y algunos e
 
 ## **Inmigración**
 
-`IMAGEN`
+``ALGO?``
 
-**Análisis ejemplo**
+**EE.UU.**
 
-``EEUU?``
-``ARG?``
+``ALGO?``
 
-``Comentar que le falta mejora para hacerlo interactivo?``
+<p align='center'>
+<img src ="images/Inmigracion_EEUU_S3.png" width="800">
+<p>
+
+**Argentina**
+
+``ALGO?``
+
+<p align='center'>
+<img src ="images/Inmigracion_Arg_S3.png" width="800">
+<p>
+
+``Comentar que le falta mejora para hacerlo interactivo????``
+
 
 ## **Sistema Prediccion**
 
