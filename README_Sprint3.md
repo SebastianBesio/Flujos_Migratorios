@@ -73,14 +73,15 @@ Ademas debajo a la izqueirda se puede ver la cantidad total de emigrantes que ti
 ``Comentar que le falta mejora para hacerlo interactivo????``
 
 
-## **Sistema Prediccion**
+## **Sistema Predicción**
 
 **Forecasting**
 
-El Forecasting consiste en la estimación y el análisis de la demanda futura mediante algoritmos. La demanda futura de un producto en una empresa viene condicionada por múltiples factores, en ocasiones difíciles de determinar con exactitud.
+El Forecasting consiste en la estimación y el análisis del valor de una variable futura mediante algoritmos.
 
-``Imagen de ejemplo forecasting o prophet``
+**Prophet**
 
+Es una herramienta de codigo abierto diseñada por Meta para predecir valores futuros basados en datos historicos (Forecasting).
 <p align='center'>
 <img src ="images/Prediccion_S3.png" width="800">
 <p>
@@ -88,20 +89,17 @@ El Forecasting consiste en la estimación y el análisis de la demanda futura me
 
 Algo asi en español?
 
-Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well...
-
 [Introducción Prophet](https://facebook.github.io/prophet/)
 
 [Documentación Prophet](https://facebook.github.io/prophet/docs/quick_start.html)
 
-Prediccion
-- Hablar mínimamente de prophet y forecasting (pronósticos)
-    - ¿Qué es Forecasting (pronósticos)?
-    - ¿Porque usamos? Para predecir migración neta a futuro.
-    - ¿Cómo funciona el modelo?
-    - Librería usada Prophet, es de Meta (FB) disponibilizado en 2017
-- La colocamos en una Cloud Function los resultados de las predicciones se agregaron como nuevo campo de la tabla migraciones con el nombre de migración neta pred.
-- Se hicieron predicciones de hasta 5 años (porque mientras más lejanas más imprecisas son).
+`COMO FUNCIONA?`
+
+**Predicción de Migración Neta**
+
+El modelo de predicción se agregó a una Cloud Function, en donde toma la migración neta y pronostica su valor para los proximos 5 años futuros. No se hace para mas años ya que mientras mas lejana la predicción mas imprecisa es.
+
+Esos datos se agregaron en el campo migracion_neta_pred dentro de la tabla de migracion de BigQuery para luego poder consultarlos directamente desde Power BI.
 
 <p align='center'>
 <img src ="images/Prediccion_S3.png" width="800">
