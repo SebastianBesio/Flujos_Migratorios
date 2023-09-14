@@ -34,7 +34,7 @@ Luego con los datos de las diversas fuentes, se hicieron varias limpiezas y estu
 
 Las variables a analizar en nuestro dataset son las siguientes:
 
-| Fuente | Tipo Datos |
+| Variable | Descripción |
 | - |- |
 | Año | Año a los que corresponden los datos. |
 | Migración neta | Diferencia entre la inmigración y la emigración. |
