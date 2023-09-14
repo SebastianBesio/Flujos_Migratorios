@@ -10,41 +10,46 @@
 
 El producto final es un dashboard y reportes interactivos implementado en Power BI.
 
-Debajo les detallaremos las caracteristicas principales del producto y algunos ejemplos de análisis realizados para que vean cómo podrían utilizarlo para sus propios análisis.
+Debajo les detallaremos las características principales del producto y algunos ejemplos de análisis realizados para que vean cómo podrían utilizarlo para sus propios análisis.
 
 
 ## **DASHBOARD**
 
-``Breve descripcion gral?``
+A la izquierda se encuentran 4 KPIs luego se puede ver varias gráficas para ver las tendencias de las distintas variables a lo largo de los años, pudindo filtrar por años y paises.
 
 
 <p align='center'>
 <img src ="images/Dashboard_S3.png" width="800">
 <p>
 
-``KPIs de nuevo?``
+### **KPIs**
+
+- KPI 1: Reducción del Desempleo
+- KPI 2: Mejora Escolaridad
+- KPI 3: Esperanza de vida
+- KPI 4: HDI
+
+Detallados en [Sprint 2](README_Sprint2.md)
 
 ## **Comparaciones**
+
+Donde se pueden ver comparaciones para ver relaciones entre varios indicadores. Como por ejemplo el desempleo y la migración neta.
 
 <p align='center'>
 <img src ="images/Comparaciones_S3.png" width="800">
 <p>
 
-Donde se pueden ver comparaciones para ver relaciones entre varios indicadores. Como por ejemplo el desempleo y la migración neta.
-
-``Desempleo vs mig neta?``
-
 ## **Emigración**
 
-En este reporte se pueden elegir el pais de origen de la emigración y los paises destino para estudiar los destinos de flujo migratorio. Se observa una grafica que muestra el aumento de los emigrantes de ese pais hacia los destinos elegidos.
+En este reporte se pueden elegir el pais de origen de la emigración y los paises para estudiar los destinos de flujo migratorio. Se observa una gráfica que muestra el aumento de los emigrantes de ese pais hacia los destinos elegidos.
 
-Ademas debajo a la izqueirda se puede ver la cantidad total de emigrantes que tiene el país de origen como para poder ver la diferencia en la imigración.
+Además debajo a la izqueirda se puede ver la cantidad total de emigrantes que tiene el país de origen como para poder ver la diferencia en la imigración.
 
 <p align='center'>
 <img src ="images/Emigracion_S3.png" width="800">
 <p>
 
-**Análisis ejemplo**
+**Análisis**
 
 ``Venezuela 2015?``
 ``Cuba?``
@@ -70,9 +75,6 @@ Ademas debajo a la izqueirda se puede ver la cantidad total de emigrantes que ti
 <img src ="images/Inmigracion_Arg_S3.png" width="800">
 <p>
 
-``Comentar que le falta mejora para hacerlo interactivo????``
-
-
 ## **Sistema Predicción**
 
 **Forecasting**
@@ -81,13 +83,7 @@ El Forecasting consiste en la estimación y el análisis del valor de una variab
 
 **Prophet**
 
-Es una herramienta de codigo abierto diseñada por Meta para predecir valores futuros basados en datos historicos (Forecasting).
-<p align='center'>
-<img src ="images/Prediccion_S3.png" width="800">
-<p>
-
-
-Algo asi en español?
+Es una herramienta de codigo abierto diseñada por Meta en 2017 para predecir valores futuros basados en datos historicos (Forecasting).
 
 [Introducción Prophet](https://facebook.github.io/prophet/)
 
