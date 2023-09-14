@@ -66,11 +66,12 @@ Tomando en cuenta los datos se diseñó un diagrama ER. Las tablas fueron creada
 
 ### *'migracion'* (Tabla de Hechos)
 
-| Fuente | Tipo Datos | Descripcion |
+| Nombre Dato | Tipo Dato | Descripción |
 | - |- |- |
 | id_migracion | INT | Primary Key |
 | anio | DATE | Año a los que corresponden los datos. |
-| Migración neta | INT | Migración neta, diferencia entre la inmigración y la emigración. |
+| migracion_neta | INT | Migración neta, diferencia entre la inmigración y la emigración. |
+| migracion_neta_ped | INT | Migración neta predicha con el modelo de forecasting (prophet). |
 | id_pais | INT | Foreign key de la tabla 'pais' |
 | id_fac_soc | INT | Foreign key de la tabla 'fac_social' |
 | id_fac_eco | INT | Foreign key de la tabla 'fac_economico' |
@@ -78,32 +79,32 @@ Tomando en cuenta los datos se diseñó un diagrama ER. Las tablas fueron creada
 
 ### *'pais'*
 
-| Fuente | Tipo Datos | Descripcion |
+| Nombre Dato | Tipo Dato | Descripción |
 | - |- |- |
 | id_pais | INT | Primary Key |
 | nombre | INT | Nombre del pais. |
 
 ### *'fac_economico'* (factores economicos)
 
-| Fuente | Tipo Datos | Descripcion |
+| Nombre Dato | Tipo Dato | Descripción |
 | - |- |- |
 | id_fac_eco | INT | Primary Key |
-| Desempleo | FLOAT | Persona que busca empleo y pero no lo tiene. |
-| PIB per cápita | FLOAT | Producto Interno Bruto por persona. |
-| PIB per cápita ajustado | FLOAT | Producto Interno Bruto por persona ajustado por paridad de poder adquisitivo (PPA) en el año 1990. |
+| desempleo | FLOAT | Persona que busca empleo y pero no lo tiene. |
+| pbi_per_capita | FLOAT | Producto Interno Bruto por persona. |
+| pbi_per_cap_aj | FLOAT | Producto Interno Bruto por persona ajustado por paridad de poder adquisitivo (PPA) en el año 1990. |
 
 ### *'fac_social'* (factores sociales)
 
-| Fuente | Tipo Datos | Descripcion |
+| Nombre Dato | Tipo Dato | Descripción |
 | - |- |- |
 | id_fac_soc | INT | Primary Key |
 | hdi | FLOAT | Indice de Desarrollo Humano. |
-| Esperanza_vida | FLOAT | La esperanza de vida es la media de la cantidad de años que vive una determinada población. |
-| Año_prom_esc | FLOAT | Número de años promedio de educación de una persona. |
+| esperanza_vida | FLOAT | La esperanza de vida es la media de la cantidad de años que vive una determinada población. |
+| anio_prom_esc | FLOAT | Número de años promedio de educación de una persona. |
 
 ### *'inmigracion'*
 
-| Fuente | Tipo Datos | Descripcion |
+| Nombre Dato | Tipo Dato | Descripción |
 | - |- |- |
 | id_inmigracion | INT | Primary Key |
 | hombres | INT | Cantidad de hombres que inmigraron al país. |
