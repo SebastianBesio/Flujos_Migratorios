@@ -36,7 +36,7 @@ El proyecto va a estar dividido en tres Sprints de una semana cada uno. Debajo s
 ### *Integrantes*
 | Nombre            | LinkedIn      |
 |-------------------|---------------|
-| Marcelo Gimenez Suarez    | [LinkedIn](www.linkedin.com/in/marcelo-gimenez-suarez-datascientist) |
+| Marcelo Gimenez Suarez    | [LinkedIn](https://www.linkedin.com/in/marcelo-gimenez-suarez-datascientist/) |
 | Nehuen Gonzalez   | [LinkedIn](https://www.linkedin.com/in/nehuen-gonzalez/) |
-| Thiago Gonzales   | [LinkedIn](www.linkedin.com/in/thiago-gonzales) |
+| Thiago Gonzales   | [LinkedIn](https://www.linkedin.com/in/thiago-gonzales/) |
 | Sebastián Besio   | [LinkedIn](https://www.linkedin.com/in/sebasti%C3%A1n-besio-calatroni/) |
