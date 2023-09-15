@@ -53,9 +53,6 @@ Además debajo a la izqueirda se puede ver la cantidad total de emigrantes que t
 
 En el caso de Venezuela se puede observar la gran emigración a partir del año 2015, como consecuencia de la crisis económica ocurrida durante la primera presidencia de Maduro. La crisis económica y humanitaria en Venezuela fue tal que ha llevado a una de las crisis migratorias más grandes de América Latina. Como podemos observar millones de venezolanos han abandonado el país en busca de refugio y oportunidades en países vecinos.
 
-``Cuba?``
-``Otro?``
-
 ## **Inmigración**
 
 La inmigración es un fenómeno global y ha sido un tema importante en las discusiones políticas y sociales en todo el mundo. Es un proceso mediante el cual las personas se mudan de un país o región a otro con el objetivo de establecerse y vivir en el lugar de destino de manera permanente o temporal. A modo de ejemplo podemos mencionar el caso de Estados Unidos y el de Argentina.
@@ -68,7 +65,6 @@ La disminución en la emigración de México a los Estados Unidos a partir de 20
 3. Mayor control fronterizo
 4. Mayor inversión en educación
 
-
 <p align='center'>
 <img src ="images/Inmigracion_EEUU_S3.png" width="800">
 <p>
@@ -77,7 +73,6 @@ La disminución en la emigración de México a los Estados Unidos a partir de 20
 
 La reducción de la inmigración en Argentina en la década de 1990 se produjo porque: esa década estuvo marcada por una serie de reformas económicas, como la Convertibilidad y la privatización de empresas, que inicialmente generaron estabilidad, pero luego dieron paso a crisis económicas y sociales, que culminaron en la crisis financiera y el colapso del gobierno a principios de los años 2000. 
 Luego la inmigración aumentó hasta la actualidad y la razón principal fue por la creación en el año 2003 de la Ley Migraciones 25.871, que regulariza la situación documentaria de cientos de miles de migrantes, especialmente a personas que provienen de países del MERCOSUR.
-
 
 <p align='center'>
 <img src ="images/Inmigracion_Arg_S3.png" width="800">
@@ -96,8 +91,6 @@ Es una herramienta de codigo abierto diseñada por Meta en 2017 para predecir va
 [Introducción Prophet](https://facebook.github.io/prophet/)
 
 [Documentación Prophet](https://facebook.github.io/prophet/docs/quick_start.html)
-
-`COMO FUNCIONA?`
 
 Prophet divide los datos en tres partes principales:
 
